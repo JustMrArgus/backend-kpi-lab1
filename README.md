@@ -2,6 +2,8 @@
 
 **Author:** Oleksandr Rodina, group IM-33
 
+**Every lab builds on the previous one**
+
 **Deployed version:** [https://backend-kpi-lab1.onrender.com/healthcheck](https://backend-kpi-lab1.onrender.com/healthcheck)
 
 ## Requirements
@@ -16,10 +18,11 @@ This project uses environment variables for configuration. You need to create a 
 
 The file should contain the following variables:
 
-- `PORT`: The port on which the application server will run.
-  ```
-  PORT=8000
-  ```
+`PORT`: The port on which the application server will run.
+
+```
+PORT=8000
+```
 
 **Default PORT is 3000 if not set in `.env` file**
 
