@@ -66,20 +66,13 @@ The application will be available at `http://localhost:8000`.
 #### Option C: Running with Docker Compose
 
 ```bash
-# Start the service in detached (background) mode
-sudo docker compose up -d
+sudo docker compose up
 ```
 
 _For older versions, you might need the command with a hyphen:_
 
 ```bash
-sudo docker-compose up -d
-```
-
-To stop the service:
-
-```bash
-sudo docker compose down
+sudo docker-compose up
 ```
 
 ### Health Check
